@@ -2,7 +2,7 @@
 'use strict';
 
 // eslint-disable-next-line no-unused-vars
-const theParent = document.getElementById('theStandTable');
+const tableEl = document.getElementById('tableEl');
 
 function getRandom(min, max) {
   min = Math.ceil(min);
@@ -74,7 +74,7 @@ let totalDaily = Seattle.totalCookies + Tokyo.totalCookies + Dubai.totalCookies
 function Heading() {
 
   let TableOfHours = document.createElement('tr');
-  theParent.appendChild(TableOfHours);
+  tableEl.appendChild(TableOfHours);
 
 
   let TheLocation = document.createElement('th');
@@ -102,7 +102,7 @@ Heading();
 CityInfo.prototype.newElem = function () {
 
   let cookiestable = document.createElement('tr');
-  theParent.appendChild(cookiestable);
+  tableEl.appendChild(cookiestable);
 
   let address = document.createElement('td');
   cookiestable.appendChild(address);
@@ -158,7 +158,7 @@ Lima.newElem();
 function footer() {
 
   let hoursTotal = document.createElement('tr');
-  theParent.appendChild(hoursTotal);
+  tableEl.appendChild(hoursTotal);
 
   let Finaltotal = document.createElement('td');
   Finaltotal.textContent = 'Total';

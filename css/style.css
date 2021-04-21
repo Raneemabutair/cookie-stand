@@ -1,0 +1,25 @@
+
+body { width: 1000px;
+    margin: auto;
+    background-color: #e0e0b7;}
+
+    h1 {
+        text-align: center;
+        color:#2C3E50  ;
+        font-size: 35px;
+    }
+
+    a {
+        padding: 20px;
+        text-decoration: none;
+        text-align: center;
+        
+        
+     }
+    
+     a:hover {
+        background-color: #eeb0aa;
+        color: #6b0c91;
+     }
+
+

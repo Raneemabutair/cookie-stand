@@ -64,8 +64,8 @@ function branchestotal() {
   return arraytotal;
 
 }
-let totalDaily = Seattle.totalCookies + Tokyo.totalCookies + Dubai.totalCookies
-  + Paris.totalCookies + Lima.totalCookies;
+let totalDaily = Seattle.total + Tokyo.total + Dubai.total
+  + Paris.total + Lima.total;
 
 ////************************************************************************************************************************ *///
 

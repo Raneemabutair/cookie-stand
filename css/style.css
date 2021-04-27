@@ -36,3 +36,32 @@ body { width: 1000px;
     
         
     }
+
+    
+    h2 {
+        text-align: center;
+        color:#2C3E50  ;
+        font-size: 25px;
+        font-weight: bold
+    }
+
+    main  {
+        text-align: center;
+        color:#4c2e53  ;
+        font-size: 25px;
+
+    }
+
+.branch1{
+    text-align: center;
+    color:#c27114  ;
+    font-size: 20px;
+}
+
+.slogen{
+    text-align: center;
+    color:#8d2506  ;
+    font-size: 20px;  
+}
+
+
